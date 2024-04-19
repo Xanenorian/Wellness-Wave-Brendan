@@ -15,7 +15,6 @@
         	<option value="mood">Mood</option>
         	<option value="nutirition">Nutrition</option>  	
         </select>
-        <input type="text" id="metricName" name="metricName" required><br><br>
         <label for="value">Value:</label>
         <input type="text" id="value" name="value" required><br><br>
         <button type="submit">Submit</button>
