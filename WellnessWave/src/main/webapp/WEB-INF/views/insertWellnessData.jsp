@@ -8,6 +8,13 @@
     <h2>Insert Wellness Data</h2>
     <form action="insertWellnessData" method="post">
         <label for="metricName">Metric Name:</label>
+        <select id="metricName" name="metric">
+        	<option value="sleep">Sleep</option>
+        	<option value="food">Food</option>
+        	<option value="stress">Stress</option>
+        	<option value="mood">Mood</option>
+        	<option value="nutirition">Nutrition</option>  	
+        </select>
         <input type="text" id="metricName" name="metricName" required><br><br>
         <label for="value">Value:</label>
         <input type="text" id="value" name="value" required><br><br>
