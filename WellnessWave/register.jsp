@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration Page</title>
-    <link rel="stylesheet" href="css/format.css">
+    <style><%@include file="/../../css/format.css"%></style>
 </head>
 <body>
     <h2>Registration Page</h2>

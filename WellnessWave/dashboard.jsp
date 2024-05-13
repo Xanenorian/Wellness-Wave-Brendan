@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>WellnessWave Dashboard</title>
-    <link rel="stylesheet" href="css/format.css">
+    <style><%@include file="/../../css/format.css"%></style>
 </head>
 <body>
     <h2>WellnessWave Dashboard</h2>

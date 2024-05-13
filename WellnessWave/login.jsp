@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>WellnessWave Login Page</title>
-    <link rel="stylesheet" href="css/format.css">
+    <style><%@include file="/../../css/format.css"%></style>
 </head>
 <body>
     <h2>WellnessWave Login Page</h2>
@@ -18,11 +18,11 @@
     <form action="login" method="post">
         <div>
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input class="box" type="text" id="username" name="username" required>
         </div>
         <div>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input class="box" type="password" id="password" name="password" required>
         </div>
         <button type="submit">Login</button>
     </form>
@@ -31,4 +31,12 @@
         <button type="submit">Create New User</button>
     </form>
 </body>
+<footer>
+	<div class="footer-container">
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p class="contact-info">6510 Pine St, Omaha, NE 68106 | Phone: 402-808-2472 | Email: wellnesswave@gmail.com</p>
+        </div>
+     </div>
+</footer>
 </html>
