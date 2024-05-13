@@ -35,7 +35,7 @@
 	<div class="footer-container">
         <div class="footer-section">
             <h3>Contact Us</h3>
-            <p class="contact-info">123 Main Street, City, State ZIP | Phone: 123-456-7890 | Email: info@example.com</p>
+            <p class="contact-info">6510 Pine St, Omaha, NE 68106 | Phone: 402-808-2472 | Email: wellnesswave@gmail.com</p>
         </div>
      </div>
 </footer>
